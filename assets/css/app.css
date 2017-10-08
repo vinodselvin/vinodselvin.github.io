@@ -1,0 +1,25 @@
+.my-container{padding: 0px;}
+.card-img-top{margin:auto;background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); width: 100%; height: 400px; margin: 0px;}
+.my-card-body{background: linear-gradient(141deg, ghostwhite 0%, whitesmoke 51%, ghostwhite 75%);}
+.card-img-top > img{padding: 0px;}
+.card-img-top > .vinod{ opacity: 0.5; padding: 25px 0px 25px 0px; object-fit: scale-down; text-align: right;}
+.card-img-top > .my-quote{padding: 55px 0px 55px 0px; color: white;}
+.my-quote > .represent{font-weight: 400; margin-bottom: 10px;}
+.my-quote > .name{font-weight: bold; margin-bottom: 10px;}
+.my-quote > .designation{margin-bottom: 10px; font-size: 20px;}
+.my-quote > .know-more{padding: 10px 60px 10px 60px; background: linear-gradient(141deg, gold 0%, #D4AF37 51%, gold 75%);
+border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42px; box-shadow: 0px 1px 1px #313131; font-weight: bold; cursor: pointer; margin-bottom: 15px;}
+.my-quote > .know-more:hover{background: linear-gradient(141deg, #D4AF37 0%, gold 51%, #D4AF37 75%); }
+.my-quote > .know-more:active{opacity: 0.9;}
+.my-quote > .follow-me{}
+.follow-me > span{opacity: 0.7;}
+.follow-me > a{font-size: 20px !important; padding: 3px; text-decoration: none;}
+.my-container-2{margin-top: -75px; background: white; height: 500px;}
+
+@media screen and (max-width: 651px) {
+	.card-img-top > .vinod > img{display: none;}
+	.card-img-top > .vinod{max-width: 0;}
+	.card-img-top > .my-quote{text-align: center; max-width: 100%; margin: auto;}
+	.my-quote > .know-more{margin: auto; margin-top: 20px; margin-bottom: 15px;}
+	.follow-me > span{display: none;}
+}
