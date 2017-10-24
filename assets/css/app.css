@@ -14,8 +14,8 @@ border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42
 .my-quote > .follow-me{}
 .follow-me > span{opacity: 0.7;}
 .follow-me > a{font-size: 20px !important; padding: 3px; text-decoration: none;}
-.my-container-2{margin-top: -75px; background: white; height: 500px;}
-
+.my-container-2{margin-top: -75px; background: white; height: 500px; padding: 0px;}
+.p-0{padding: 0px;}
 @media screen and (max-width: 651px) {
 	.card-img-top > .vinod > img{display: none;}
 	.card-img-top > .vinod{max-width: 0;}
@@ -23,3 +23,11 @@ border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42
 	.my-quote > .know-more{margin: auto; margin-top: 20px; margin-bottom: 15px;}
 	.follow-me > span{display: none;}
 }
+.box-wrap{padding: 45px;}
+.box-container{box-shadow: 0px 0px 1px grey; text-align: center; }
+.box-container img, .box-container .box-head{padding: 20px 30px; border-bottom: 1px solid black; font-size: 24px; font-weight: 500;}
+.box-container > .box-body{padding-bottom: 30px; padding-top: 30px; font-size: 18px; font-weight: lighter;}
+.dark-card > .card-body{background: #2E2E2E; color: white; padding: 10px;}
+.dark-card > .card-body > .card-title{color: white;}
+.a-tag{text-decoration: underline;}
+.my-container-2 > .row{padding: 15px;}
