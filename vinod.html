@@ -317,7 +317,7 @@
     <script id="vinodReposCardTemplate" type="text/x-jsrender">
 		<div class="col-lg-4 col-xs-12 col-sm-12 col-md-6 p-b-30">
 			<div class="box-container eachcard">
-				<div class="box-head text-uppercase">{{:name}}</div>
+				<div class="box-head">{{:name}}</div>
 				<div class="box-body text-capitalize">
 					{{:description}}
 				</div>
@@ -338,6 +338,11 @@
 		        var template = $.templates("#vinodReposCardTemplate");
 
 				var htmlOutput = template.render(result);
+
+				 $.each(result, function (index, data) {
+				 	console.log(data);
+			        result[index]['name'] = data['name'].replace(/\d+/g, '');
+			    })
 
 				$("#vinodReposCards").html(htmlOutput);
 		    }});
