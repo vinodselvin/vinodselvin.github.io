@@ -22,6 +22,8 @@ border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42
 	.card-img-top > .my-quote{text-align: center; max-width: 100%; margin: auto;}
 	.my-quote > .know-more{margin: auto; margin-top: 20px; margin-bottom: 15px;}
 	.follow-me > span{display: none;}
+	.p-b-30{padding-left: 0px;
+    padding-right: 0px;}
 }
 .know-more a{text-decoration: none; color: white;}
 .box-wrap{padding: 45px;}
@@ -251,6 +253,7 @@ border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42
     }
     .p-b-30{
     	padding-bottom: 30px !important;
+
     }
     .box-head{background: smokewhite;}
     .flex{display: flex;}
