@@ -14,7 +14,7 @@ border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42
 .my-quote > .follow-me{}
 .follow-me > span{opacity: 0.7;}
 .follow-me > a{font-size: 20px !important; padding: 3px; text-decoration: none;}
-.my-container-2{margin-top: -75px; background: white; height: max-content; padding: 20px;}
+.my-container-2{margin-top: -75px; background: white; height: max-content; padding: 20px; border-radius: 2px; box-shadow: 1px 1px 25px #717171;}
 .p-0{padding: 0px;}
 @media screen and (max-width: 651px) {
 	.card-img-top > .vinod > img{display: none;}
@@ -24,14 +24,17 @@ border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42
 	.follow-me > span{display: none;}
 }
 .box-wrap{padding: 45px;}
-.box-container{ text-align: center; }
-.box-container img, .box-container .box-head{padding:30px 15px 30px 15px; height: 115px; color: white; font-size: 20px; font-weight: 500; color: white; background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); text-align: left;}
+.box-container{ text-align: center;  border-radius: 7px;}
+.shdow{box-shadow: 0px 3px 19px lightgray;}
+.box-container:hover, .box-container:active, .box-container:focus{box-shadow: 0px 3px 19px gray;}
+.box-container img, .box-container .box-head{padding:30px 15px 30px 15px; height: 115px; color: white; font-size: 20px; font-weight: 500; color: white; background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); text-align: left; border-top-left-radius: 8px; border-top-right-radius: 8px; }
 .box-container > .box-body{padding:20px 10px; font-family: sans-serif; font-size: 14px; font-weight: lighter; 
-	border-left: 2px solid gold;    border-right: 2px solid gold; height: 115px;
+	border-left: 2px solid gold;    border-right: 2px solid gold; height: 150px;
 	 text-align: left;}
 .dark-card > .card-body{background: #2E2E2E; color: white; padding: 10px;}
 .dark-card > .card-body > .card-title{color: white;}
 .a-tag{text-decoration: underline;}
-.my-container-2 > .row{padding: 15px;}
+.my-container-2 > .row{padding: 15px; }
 .p-30{padding: 30px;}
 .p-t-0{padding-top : 0px;}
+.divider{width: 120px; background:#2cb5e8 !important; height: 5px; margin-top: 10px;margin-bottom: 35px;}

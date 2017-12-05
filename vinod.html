@@ -19,7 +19,9 @@
     	color: white;
     	cursor: pointer;
     }
-    .know-more-card > a{color: white; font-weight: bold; text-decoration: none;}
+    .know-more-card > a{color: white; font-weight: bold; text-decoration: none;
+    }
+    .know-more-card{border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;}
     .know-more-card:hover{
     	text-decoration: none;
     	opacity: 0.8;
@@ -257,14 +259,16 @@
 					<div class="container my-container-2">
 						<div class="row">
 							<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12">
-								<h1 align="center">POSTS</h1>
+								<h5 class="text-primary" style="font-weight: bold;">REPOSITORIES</h5>
+								<h2>It's harder to read <span class="text-danger" style="font-weight: bold;">CODE</span> than to write it.</h2>
+								<div class="divider"></div>
 							</div>
 						</div>
 						<div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 p-0">
 							<div class="container-fluid p-30 p-t-0">
 								<div class="row" id="vinodReposCards">
 									<div class="col-lg-4 col-xs-12 col-sm-12 col-md-6 p-b-30">
-										<div class="box-container splash">
+										<div class="box-container splash shdow">
 											<div class="animated-background">
 												<div class="background-masker content-top"></div>
 												<div class="splash-line"></div>
@@ -275,7 +279,7 @@
 										</div>
 									</div>
 									<div class="col-lg-4 col-xs-12 col-sm-12 col-md-6 p-b-30">
-										<div class="box-container splash">
+										<div class="box-container splash shdow">
 											<div class="animated-background">
 												<div class="background-masker content-top"></div>
 												<div class="splash-line"></div>
@@ -286,7 +290,7 @@
 										</div>
 									</div>
 									<div class="col-lg-4 col-xs-12 col-sm-12 col-md-6 p-b-30">
-										<div class="box-container splash">
+										<div class="box-container splash shdow">
 											<div class="animated-background">
 												<div class="background-masker content-top"></div>
 												<div class="splash-line"></div>
@@ -326,10 +330,9 @@
 			      <div class="box-head" title="Forked"><i class="fa fa-cutlery text-primary"></i> {{:name}}</div>
 			   	{{/if}}
 				<div class="box-body text-capitalize">
-					<i class="fa fa-toggle-right"></i> {{:description}}
-
-					<!-- <br> -->
-					<!-- Stars <i class="fa fa-star-o" style="font-size: 20px;"></i> {{:stargazers_count}} -->
+					<i class="fa fa-toggle-right text-warning"></i> {{:description}}
+					<br><br>
+					<div><i class="fa fa-certificate text-danger"></i> Language: {{:language}}</div>
 				</div>
 				<div class="know-more-card">
 					<a href="{{:html_url}}" target="_blank">
