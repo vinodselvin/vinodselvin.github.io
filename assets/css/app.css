@@ -8,13 +8,13 @@
 .my-quote > .name{font-weight: bold; margin-bottom: 10px;}
 .my-quote > .designation{margin-bottom: 10px; font-size: 20px;}
 .my-quote > .know-more{padding: 10px 60px 10px 60px; background: linear-gradient(141deg, gold 0%, #D4AF37 51%, gold 75%);
-border: 0px solid black; width: max-content; border-radius: 90px; margin-top: 42px; box-shadow: 0px 1px 1px #313131; font-weight: bold; cursor: pointer; margin-bottom: 15px;}
+border: 0px solid black; width: max-content; border-radius: 90px; width: -moz-max-content; margin-top: 42px; box-shadow: 0px 1px 1px #313131; font-weight: bold; cursor: pointer; margin-bottom: 15px;}
 .my-quote > .know-more:hover{background: linear-gradient(141deg, #D4AF37 0%, gold 51%, #D4AF37 75%); }
 .my-quote > .know-more:active{opacity: 0.9;}
 .my-quote > .follow-me{}
 .follow-me > span{opacity: 0.7;}
 .follow-me > a{font-size: 20px !important; padding: 3px; text-decoration: none;}
-.my-container-2{margin-top: -75px; background: white; height: max-content; padding: 20px; border-radius: 2px; box-shadow: 1px 1px 25px #717171;}
+.my-container-2{margin-top: -75px; background: white; height: max-content; width: -moz-max-content; padding: 20px; border-radius: 2px; box-shadow: 1px 1px 25px #717171;}
 .p-0{padding: 0px;}
 @media screen and (max-width: 651px) {
 	.card-img-top > .vinod > img{display: none;}
