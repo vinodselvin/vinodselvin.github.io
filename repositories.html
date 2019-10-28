@@ -272,11 +272,11 @@
 			e.preventDefault();
 			var filter = $(this).data('filter');
 			
-			if(filter == "my"){
+			if(filter == "forked"){
 				$(".forked-true").removeClass("hidden-xs-up");
 				$(".forked-false").addClass("hidden-xs-up");
 			}
-			else if(filter == "forked"){
+			else if(filter == "my"){
 				$(".forked-false").removeClass("hidden-xs-up");
 				$(".forked-true").addClass("hidden-xs-up");
 			}
